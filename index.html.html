@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>واحة الكلاب</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+.btn {
+    display: inline-block;
+    background-color: #0077cc;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+}
+
+.btn:hover {
+    background-color: #005fa3;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #e0e0e0;
+}
+
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.about-content img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 250px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">اهلا وسهلا بكم في فندق واحة الكلاب</div>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html">الخدمات</a>
+        <a href="room.html">احجز الان</a>
+        <a href="booking.html">اتصل بنا</a>
+        <a href="backges.html">البكجات</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>راحة كلبك تبدأ هنا</h1>
+        <p>فندق فاخر لرعاية وإيواء الكلاب في هونغ كونغ</p>
+        <a href="booking.html" class="btn">احجز إقامة الآن</a>
+    </div>
+</section>
+
+<section class="about">
+    <h2>من نحن</h2>
+    <p>
+        في واحة الكلاب نقدم تجربة إقامة مميزة مليئة بالحب والرعاية.
+        غرف مريحة، إشراف متخصص، ومساحات لعب آمنة تضمن سعادة وراحة كلبك طوال فترة إقامته.
+    </p>
+    <div class="about-content">
+        <img src="صورة1.png" alt="صورة الغرفة 1">
+        <img src="صورة2.png" alt="صورة الغرفة 2">
+        <img src="صورة3.png" alt="صورة الغرفة 3">
+        <img src="صورة4.png" alt="صورة الغرفة 4">
+      
+    </div>
+</section>
+
+<section class="services-preview">
+    <h2>خدماتنا</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>إيواء الكلاب</h3>
+            <p>غرف نظيفة ومكيفة بإشراف دائم.</p>
+            <a href="room.html" class="btn">احجز الآن</a>
+        </div>
+        <div class="card">
+            <h3>العناية والتدريب</h3>
+            <p>قص شعر، تنظيف، وبرامج تدريب للطاعة والسلوك.</p>
+            <a href="services.html" class="btn">المزيد</a>
+        </div>
+        <div class="card">
+            <h3>خدمات إضافية</h3>
+            <p>خدمة التوصيل، مرافق مراقبة الحيوانات، وتمشية في الغابات.</p>
+            <a href="extras.html" class="btn">اكتشف</a>
+        </div>
+    </div>
+</section>
+
+<section class="map-section">
+    <h2>موقعنا</h2>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236162.23976800774!2d114.30420947980366!3d22.352307397025193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff809bf3e375%3A0x95df0b9d695e6eea!2sRamada%20Hong%20Kong%20Harbour%20View!5e0!3m2!1sar!2sjo!4v1772609925497!5m2!1sar!2sjo"
+        width="100%" 
+        height="600" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</section>
+
+<footer>
+    جميع الحقوق محفوظة © 2026 - واحة الكلاب RAMA OBEIDAT
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
